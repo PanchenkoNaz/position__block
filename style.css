@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    
+}
+
+.box{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.header{
+    width: 80%;
+    float: right;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.inner-header{
+    border: 4px solid #000;
+    height: 100px;
+    position: relative;
+}
+
+
+.section-1{
+    width: 40%;
+    float: right;
+}
+
+.inner-section-1{
+    border: 4px solid #000;
+    height: 280px;
+    position: relative;
+}
+
+.section-2{
+    width: 40%;
+    float: right;
+    padding-right: 20px;
+}
+
+.inner-section-2{
+    border: 4px solid #000;
+    height: 280px;
+    position: relative;
+}
+
+.aside{
+    width: 20%;
+    padding-right: 20px;
+}
+
+.inner-aside{
+    border: 4px solid #000;
+    height: 400px;
+    position: relative;
+}
+
+.article{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.inner-article{
+    border: 4px solid #000;
+    height: 200px;
+    position: relative;
+}
+
+.footer{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.inner-footer{
+    border: 4px solid #000;
+    height: 100px;
+    position: relative;
+}
+
+.circle-1,
+.circle-2,
+.circle-3,
+.circle-4,
+.circle-5,
+.circle-6{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #1c1fca;;
+} 
+
+.circle-1{
+    left: calc(50% - 25px);
+    top: calc(50% - 25px);
+}
+
+.circle-2{
+    right: 0;
+    bottom: 0;
+}
+
+.circle-3{
+    top: 0;
+    left: calc(50% - 25px);
+
+}
+
+.circle-4{
+    left: calc(50% - 25px);
+    top: calc(50% - 25px);
+}
+
+.circle-5{
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.circle-6{
+    top: 0;
+    right: 0;
+}
+
+h4{
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
